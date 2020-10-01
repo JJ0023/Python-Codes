@@ -5,6 +5,7 @@ count=0
 value=0
 fname = input("Enter file name: ")
 fh = open(fname)
+#change by Jeevan0023
 for line in fh:
     if not line.startswith("X-DSPAM-Confidence:") : continue
     count=count+1
