@@ -8,6 +8,7 @@ for line in fh:
             lst.append(a)
 lst.sort()
 print(lst)
+print("Multiple comment lines skipped by Bishal")
 
 
 
