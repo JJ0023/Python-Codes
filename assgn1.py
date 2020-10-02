@@ -13,3 +13,4 @@ for line in fh:
     value = float(value) + float(line[19:])
 avg = value/count
 print("Average spam confidence:",avg)
+print("changes by neha")
